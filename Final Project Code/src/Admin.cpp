@@ -179,7 +179,7 @@ void Admin::editUserInfo() {
 }
 
 void Admin::manageInventoryAfterSearch(ResultList<InventoryItem>& res) {
-    cout << "\n--- Inventory Menu ---\n";
+    cout << "\n--- Inventory Menu After Using Search Function ---\n";
     cout << "1. Borrow Items\n";
     cout << "2. Delete Items\n";
     cout << "3. Edit Items\n";
