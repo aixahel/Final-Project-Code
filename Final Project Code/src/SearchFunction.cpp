@@ -1,4 +1,5 @@
 #include "SearchFunction.hpp"
+#include <optional> 
 
 std::optional<ResultList<User>> SearchFunction::searchUser(Library& lib, Terminal& term) {
     term.printOptions("--- Search for User ---", {

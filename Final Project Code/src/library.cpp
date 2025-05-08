@@ -7,6 +7,8 @@
 #include <vector>
 #include <iostream>
 
+#include "zip_view.hpp"
+
 using namespace std;
 
 template <typename T> requires IsLibraryStorageType<T>

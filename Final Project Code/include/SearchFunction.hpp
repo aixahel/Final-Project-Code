@@ -8,6 +8,7 @@
 
 #include "Admin.hpp"
 #include "UserLogin.hpp"
+#include "UserHolder.hpp"
 #include "inventoryitem.hpp"
 #include "library.hpp"
 #include "terminal.hpp"

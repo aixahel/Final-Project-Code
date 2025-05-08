@@ -1,6 +1,8 @@
 #include "UserLogin.hpp"
 #include <cstdint>
 
+#include "UserHolder.hpp"
+
 
 void UserLogin::attemptLogin(Library& lib, Terminal& term) {
     string inputID, inputPassword;
